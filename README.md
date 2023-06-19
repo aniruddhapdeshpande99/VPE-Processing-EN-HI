@@ -30,7 +30,7 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
 * Open your browser and go to ```localhost:8888``` or ```localhost:YOUR_PORT```.
 * Run [vpe_main.ipynb](vpe_main.ipynb) to run the rule-based system on the annotated Train Data.
 * Run [vpe_main_test.ipynb](vpe_main_test.ipynb) to run the rule-based system on the annotated Test Data.
-* If you wish to run the model on your own conversations, do as follows:
+* If you wish to run the rule-based system on your own conversations, do as follows:
   * In a terminal tab, run ```cd your_local_directory_path/VPE-Processing-EN-HI/Test_Data```.
   * Open the file titled ```new_convo_test_cases.txt``` and add your conversations
   * Ensure each conversation is in one single line.
