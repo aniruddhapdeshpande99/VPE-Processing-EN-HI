@@ -1,0 +1,4 @@
+Index - 0
+[4, 0, 0, 1, 1, 1, 2, "I really feel energized , don ’ t you <<feel energized>>?", 1, 1, 1, 1], [4, 0, 0, 1, 1, 1, 1, "You ’ re gonna come back again with me , aren ’ t you <<gonna come back again with me>> ?", 0, -1, -1, -1]
+
+Index - 1

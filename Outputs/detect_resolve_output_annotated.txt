@@ -1,0 +1,911 @@
+0)  But just as every previous NSC adviser has, Gen. Scowcroft now will have to mull at what point the NSC staff becomes too lean and too restrained.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 8 | Licensor - has
+{'category': 3, 'site': 7, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 13, 'sen_type': 2, 'vpe_sent': 'But just as every previous NSC adviser has, Gen. Scowcroft now will have to mull at what point the NSC staff becomes too lean and too restrained.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 8 | Licensor - has
+{'category': 3, 'site': 7, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 13, 'sen_type': 2, 'vpe_sent': 'But just as every previous NSC adviser has, Gen. Scowcroft now will have to mull at what point the NSC staff becomes too lean and too restrained.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 7, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 13, 'sen_type': 2, 'vpe_sent': 'But just as every previous NSC adviser has, Gen. Scowcroft now will have to mull at what point the NSC staff becomes too lean and too restrained.', 'resolved_object': '', 'resolved_verb_phrase': 'have'}]
+================================= 
+
+
+1)  The sales job seems to be paying off: When he bought the team, only six of the suites had been sold. Today, 30 have.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 2 and token number - 4 | Licensor - have
+{'category': 3, 'site': 3, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'bought', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'Today, 30 have.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 2 and token number - 4 | Licensor - have
+{'category': 3, 'site': 3, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'bought', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'Today, 30 have.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 3, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'bought', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'Today, 30 have.', 'resolved_object': 'the team', 'resolved_verb_phrase': 'bought the team'}]
+================================= 
+
+
+2)  While the Cowboys may not be the best investment now, I don't accept they can't be in the future.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 4 | Licensor - may
+{'category': 4, 'site': 3, 'licensor': 'may', 'lemmatized_licensor': 'may', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 16, 'sen_type': 2, 'vpe_sent': "While the Cowboys may not be the best investment now, I don't accept they can't be in the future."}
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 17 | Licensor - ca
+{'category': 4, 'site': 16, 'licensor': 'ca', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'be', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "While the Cowboys may not be the best investment now, I don't accept they can't be in the future."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Be' | Ellipsis at sentence number 1 and token number - 19 | Licensor - be
+{'category': 1, 'site': 18, 'licensor': 'be', 'lemmatized_licensor': 'be', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 18, 'sen_type': 2, 'vpe_sent': "While the Cowboys may not be the best investment now, I don't accept they can't be in the future."}
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+3)  The sense is we would never be in a position again where everything works for us the way it did before.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 5 | Licensor - would
+{'category': 4, 'site': 4, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 4, 'sen_type': 2, 'vpe_sent': 'The sense is we would never be in a position again where everything works for us the way it did before.'}
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+4)  Saturday morning, a resident was given 15 minutes to scurry into a sagging building and reclaim what she could of her life's possessions.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 20 | Licensor - could
+{'category': 4, 'site': 19, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'sagging', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "Saturday morning, a resident was given 15 minutes to scurry into a sagging building and reclaim what she could of her life's possessions."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 20 | Licensor - could
+{'category': 4, 'site': 19, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'sagging', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "Saturday morning, a resident was given 15 minutes to scurry into a sagging building and reclaim what she could of her life's possessions."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 19, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'sagging', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "Saturday morning, a resident was given 15 minutes to scurry into a sagging building and reclaim what she could of her life's possessions.", 'resolved_object': '', 'resolved_verb_phrase': 'sagging'}]
+================================= 
+
+
+5)  Green allowed residents to re-enter; yellow allowed limited access; red allowed residents one last entry to gather everything they could within 15 minutes.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 22 | Licensor - could
+{'category': 4, 'site': 21, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'gather', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': 'Green allowed residents to re-enter; yellow allowed limited access; red allowed residents one last entry to gather everything they could within 15 minutes.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 24 | Licensor - could
+{'category': 4, 'site': 23, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'gather', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 20, 'vpe_sent': 'Green allowed residents to re-enter; yellow allowed limited access; red allowed residents one last entry to gather everything they could within 15 minutes.'}
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+6)  But when the dollar rises against major foreign currencies, as it did for much of this year, the dollar value of these funds declines.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 13 | Licensor - did
+{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'rises', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'But when the dollar rises against major foreign currencies, as it did for much of this year, the dollar value of these funds declines.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 13 | Licensor - did
+{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'rises', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'But when the dollar rises against major foreign currencies, as it did for much of this year, the dollar value of these funds declines.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'rises', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'But when the dollar rises against major foreign currencies, as it did for much of this year, the dollar value of these funds declines.', 'resolved_object': 'against major foreign currencies', 'resolved_verb_phrase': 'rises against major foreign currencies'}]
+================================= 
+
+
+7)  Comsat Video, which distributes pay-per-view programs to hotel rooms, plans to add Nuggets games to their offerings, as Mr. Turner did successfully with his Atlanta Hawks and Braves sports teams.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'add', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 17, 'vpe_sent': 'Comsat Video, which distributes pay-per-view programs to hotel rooms, plans to add Nuggets games to their offerings, as Mr. Turner did successfully with his Atlanta Hawks and Braves sports teams.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'plans', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 15, 'vpe_sent': 'Comsat Video, which distributes pay-per-view programs to hotel rooms, plans to add Nuggets games to their offerings, as Mr. Turner did successfully with his Atlanta Hawks and Braves sports teams.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'plans', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 15, 'vpe_sent': 'Comsat Video, which distributes pay-per-view programs to hotel rooms, plans to add Nuggets games to their offerings, as Mr. Turner did successfully with his Atlanta Hawks and Braves sports teams.', 'resolved_object': '', 'resolved_verb_phrase': 'plans'}]
+================================= 
+
+
+8)  General Electric Co. recently sold off its interests in liquid-crystal displays to Thompson-CSF of France. "We found the market not developing as we thought it would," a GE spokesman says.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 12 | Licensor - would
+{'category': 4, 'site': 11, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 1, 'resolved_head_verb': 'sold', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': '"We found the market not developing as we thought it would," a GE spokesman says.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 12 | Licensor - would
+{'category': 4, 'site': 11, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 1, 'resolved_head_verb': 'sold', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': '"We found the market not developing as we thought it would," a GE spokesman says.'}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 11, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 1, 'resolved_head_verb': 'sold', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': '"We found the market not developing as we thought it would," a GE spokesman says.', 'resolved_object': 'off its interests in liquid crystal displays', 'resolved_verb_phrase': 'sold off its interests in liquid crystal displays'}]
+================================= 
+
+
+9)  But Peter Brody, Magnascreen's president, says Japanese companies are poised to snatch the technology and put it to commercial use, just as they did with earlier U.S. innovations in color television and video recording.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'poised', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 12, 'vpe_sent': "But Peter Brody, Magnascreen's president, says Japanese companies are poised to snatch the technology and put it to commercial use, just as they did with earlier U.S. innovations in color television and video recording."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'put', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "But Peter Brody, Magnascreen's president, says Japanese companies are poised to snatch the technology and put it to commercial use, just as they did with earlier U.S. innovations in color television and video recording."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'put', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "But Peter Brody, Magnascreen's president, says Japanese companies are poised to snatch the technology and put it to commercial use, just as they did with earlier U.S. innovations in color television and video recording.", 'resolved_object': 'it to commercial use', 'resolved_verb_phrase': 'put it to commercial use'}]
+================================= 
+
+
+10)  This kind of jumpy uncertainty reminds John Calverley, senior economist for American Express Bank, of the 1969-72 period, when the industrial average rolled through huge ranges and investors flocked to the shares of companies with proven earnings records, which became known as the "nifty 50." And they will again, say money-manager proponents of the growth-stock theme.
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+11)  Big cyclical companies are using "all the tricks they can to stabilize earnings," says Mr. Sloan.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 11 | Licensor - can
+{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'using', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'Big cyclical companies are using "all the tricks they can to stabilize earnings," says Mr. Sloan.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 11 | Licensor - can
+{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'using', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'Big cyclical companies are using "all the tricks they can to stabilize earnings," says Mr. Sloan.'}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'using', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'Big cyclical companies are using "all the tricks they can to stabilize earnings," says Mr. Sloan.', 'resolved_object': 'the tricks', 'resolved_verb_phrase': 'using the tricks'}]
+================================= 
+
+
+12)  The arbs may recoup some of their paper losses if the UAL deal gets patched up again, as they did in 1982 when Occidental Petroleum Co. rescued them with a $4 billion takeover of Cities Service.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 21 | Licensor - did
+{'category': 2, 'site': 20, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'recoup', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'The arbs may recoup some of their paper losses if the UAL deal gets patched up again, as they did in 1982 when Occidental Petroleum Co. rescued them with a $4 billion takeover of Cities Service.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 21 | Licensor - did
+{'category': 2, 'site': 20, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'recoup', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'The arbs may recoup some of their paper losses if the UAL deal gets patched up again, as they did in 1982 when Occidental Petroleum Co. rescued them with a $4 billion takeover of Cities Service.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 20, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'recoup', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'The arbs may recoup some of their paper losses if the UAL deal gets patched up again, as they did in 1982 when Occidental Petroleum Co. rescued them with a $4 billion takeover of Cities Service.', 'resolved_object': 'some of their paper losses', 'resolved_verb_phrase': 'recoup some of their paper losses'}]
+================================= 
+
+
+13)  So anyone buying the stock now is betting on some special transaction such as a recapitalization or takeover, and must do so using some guesswork about the likelihood of such an event.
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+14)  David Hubel, a Nobel laureate at Harvard, has taken the lead in defending research with animals, as has Dr. Michael DeBakey.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 21 | Licensor - has
+{'category': 3, 'site': 20, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'taken', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'David Hubel, a Nobel laureate at Harvard, has taken the lead in defending research with animals, as has Dr. Michael DeBakey.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 21 | Licensor - has
+{'category': 3, 'site': 20, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'taken', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'David Hubel, a Nobel laureate at Harvard, has taken the lead in defending research with animals, as has Dr. Michael DeBakey.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 20, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'taken', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'David Hubel, a Nobel laureate at Harvard, has taken the lead in defending research with animals, as has Dr. Michael DeBakey.', 'resolved_object': 'the lead in', 'resolved_verb_phrase': 'taken the lead in'}]
+================================= 
+
+
+15)  Without this basic level of attention to reality, our policies on Cuba will continue to be as counterproductive as they have for 30 years.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 22 | Licensor - have
+{'category': 3, 'site': 21, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'continue', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 14, 'vpe_sent': 'Without this basic level of attention to reality, our policies on Cuba will continue to be as counterproductive as they have for 30 years.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 22 | Licensor - have
+{'category': 3, 'site': 21, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'be', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 16, 'vpe_sent': 'Without this basic level of attention to reality, our policies on Cuba will continue to be as counterproductive as they have for 30 years.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 21, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'be', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 16, 'vpe_sent': 'Without this basic level of attention to reality, our policies on Cuba will continue to be as counterproductive as they have for 30 years.', 'resolved_object': 'counterproductive', 'resolved_verb_phrase': 'be counterproductive'}]
+================================= 
+
+
+16)  What this all means in shorthand is that Soviet dominance in Ethiopia is collapsing as fast as President Barre's regime in Somalia is.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Be' | Ellipsis at sentence number 1 and token number - 24 | Licensor - is
+{'category': 1, 'site': 23, 'licensor': 'is', 'lemmatized_licensor': 'be', 'sen_index': 0, 'resolved_head_verb': 'collapsing', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "What this all means in shorthand is that Soviet dominance in Ethiopia is collapsing as fast as President Barre's regime in Somalia is."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Be' | Ellipsis at sentence number 1 and token number - 24 | Licensor - is
+{'category': 1, 'site': 23, 'licensor': 'is', 'lemmatized_licensor': 'be', 'sen_index': 0, 'resolved_head_verb': 'collapsing', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "What this all means in shorthand is that Soviet dominance in Ethiopia is collapsing as fast as President Barre's regime in Somalia is."}
+
+
+FINAL VPE
+
+[{'category': 1, 'site': 23, 'licensor': 'is', 'lemmatized_licensor': 'be', 'sen_index': 0, 'resolved_head_verb': 'collapsing', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 13, 'vpe_sent': "What this all means in shorthand is that Soviet dominance in Ethiopia is collapsing as fast as President Barre's regime in Somalia is.", 'resolved_object': '', 'resolved_verb_phrase': 'collapsing'}]
+================================= 
+
+
+17)  Under that approach, countries with the most unused oil capacity would get bigger shares of any future increases in OPEC's production ceiling than they would under the current system. "If you are already producing at 95% or 100% of your capacity, what's the good to be told you can produce at 105% of capacity?" asked Mr. Al-Chalabi.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 27 | Licensor - would
+{'category': 4, 'site': 26, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 0, 'resolved_head_verb': 'increases', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "Under that approach, countries with the most unused oil capacity would get bigger shares of any future increases in OPEC's production ceiling than they would under the current system."}
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+18)  "Most of our competitors are announcing products based on our (older) products," said Finis Conner, chief executive officer and founder of the firm that bears his name. "We continue to develop products faster than anyone else can." These new products could account for as much as 35% of the company's business in 1990, Mr. Conner estimated. "We're not afraid of obsoleting some of our old stuff to stay ahead of the competition," he said.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 11 | Licensor - can
+{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'develop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 1, 'resolved_head_verb_site': 4, 'vpe_sent': '"We continue to develop products faster than anyone else can."'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 11 | Licensor - can
+{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'based', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': '"We continue to develop products faster than anyone else can."'}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 10, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'based', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': '"We continue to develop products faster than anyone else can."', 'resolved_object': 'on our older products', 'resolved_verb_phrase': 'based on our older products'}]
+================================= 
+
+
+19)  As that system grows, larger computers may be needed. "In the past, customers had to go to IBM when they outgrew the VAX. Now they don't have to," he says. "That's going to cost IBM revenue."
+
+Scoring in STANFORD
+
+Ellipsis Type - 'To' | Ellipsis at sentence number 3 and token number - 6 | Licensor - to
+{'category': 5, 'site': 5, 'licensor': 'to', 'lemmatized_licensor': 'to', 'sen_index': 2, 'resolved_head_verb': 'go', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 1, 'resolved_head_verb_site': 8, 'vpe_sent': 'Now they don\'t have to," he says.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'To' | Ellipsis at sentence number 3 and token number - 6 | Licensor - to
+{'category': 5, 'site': 5, 'licensor': 'to', 'lemmatized_licensor': 'to', 'sen_index': 2, 'resolved_head_verb': 'go', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 1, 'resolved_head_verb_site': 8, 'vpe_sent': 'Now they don\'t have to," he says.'}
+
+
+FINAL VPE
+
+[{'category': 5, 'site': 5, 'licensor': 'to', 'lemmatized_licensor': 'to', 'sen_index': 2, 'resolved_head_verb': 'go', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 1, 'resolved_head_verb_site': 8, 'vpe_sent': 'Now they don\'t have to," he says.', 'resolved_object': 'to IBM', 'resolved_verb_phrase': 'go to IBM'}]
+================================= 
+
+
+20)  This bill simply says that if you want to develop property on a barrier island you have to do so without taxpayer support.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 19 | Licensor - do
+{'category': 2, 'site': 18, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'develop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 9, 'vpe_sent': 'This bill simply says that if you want to develop property on a barrier island you have to do so without taxpayer support.'}
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+21)  Her Susie Diamond handles a song the way the greats do, like she's hearing the way it should sound inside her head and she's concentrating on matching that internal tone.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 11 | Licensor - do
+{'category': 2, 'site': 10, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'handles', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': "Her Susie Diamond handles a song the way the greats do, like she's hearing the way it should sound inside her head and she's concentrating on matching that internal tone."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 11 | Licensor - do
+{'category': 2, 'site': 10, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'handles', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': "Her Susie Diamond handles a song the way the greats do, like she's hearing the way it should sound inside her head and she's concentrating on matching that internal tone."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 10, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'handles', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': "Her Susie Diamond handles a song the way the greats do, like she's hearing the way it should sound inside her head and she's concentrating on matching that internal tone.", 'resolved_object': 'a song', 'resolved_verb_phrase': 'handles a song'}]
+================================= 
+
+
+22)  Frank grovels a little for the bookers, probably no more or less than he would have to if he worked for a big corporation.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'To' | Ellipsis at sentence number 1 and token number - 18 | Licensor - to
+{'category': 5, 'site': 17, 'licensor': 'to', 'lemmatized_licensor': 'to', 'sen_index': 0, 'resolved_head_verb': 'grovels', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 1, 'vpe_sent': 'Frank grovels a little for the bookers, probably no more or less than he would have to if he worked for a big corporation.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 17 | Licensor - have
+{'category': 3, 'site': 16, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'grovels', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 1, 'vpe_sent': 'Frank grovels a little for the bookers, probably no more or less than he would have to if he worked for a big corporation.'}
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+23)  Looking leaner than he has in a while, the younger Mr. Bridges's Jack is sexy and cynical and a far sadder case than Frank, who's managed to chisel his dreams to fit reality without feeling too cheated.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 5 | Licensor - has
+{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 4, 'sen_type': 2, 'vpe_sent': "Looking leaner than he has in a while, the younger Mr. Bridges's Jack is sexy and cynical and a far sadder case than Frank, who's managed to chisel his dreams to fit reality without feeling too cheated."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 5 | Licensor - has
+{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'Looking', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 0, 'vpe_sent': "Looking leaner than he has in a while, the younger Mr. Bridges's Jack is sexy and cynical and a far sadder case than Frank, who's managed to chisel his dreams to fit reality without feeling too cheated."}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'Looking', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 0, 'vpe_sent': "Looking leaner than he has in a while, the younger Mr. Bridges's Jack is sexy and cynical and a far sadder case than Frank, who's managed to chisel his dreams to fit reality without feeling too cheated.", 'resolved_object': 'leaner in a while', 'resolved_verb_phrase': 'Looking leaner in a while'}]
+================================= 
+
+
+24)  Customers and potential customers are suddenly complaining about the stock market in the exact way they did in post-crash 1987.
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+25)  There will be a lot of repair work that won't require the quantities of cement or concrete that new constructon would." Lone Star's San Francisco facilities weren't damaged in the quake.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 22 | Licensor - would
+{'category': 4, 'site': 21, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 0, 'resolved_head_verb': 'require', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'There will be a lot of repair work that won\'t require the quantities of cement or concrete that new constructon would."'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 22 | Licensor - would
+{'category': 4, 'site': 21, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 0, 'resolved_head_verb': 'require', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'There will be a lot of repair work that won\'t require the quantities of cement or concrete that new constructon would."'}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 21, 'licensor': 'would', 'lemmatized_licensor': 'would', 'sen_index': 0, 'resolved_head_verb': 'require', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'There will be a lot of repair work that won\'t require the quantities of cement or concrete that new constructon would."', 'resolved_object': 'the quantities of cement', 'resolved_verb_phrase': 'require the quantities of cement'}]
+================================= 
+
+
+26)  Fireman's Fund had claims adjusters on the streets of San Francisco right after sunrise yesterday and was paying as many claims as it could right on the spot.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 25 | Licensor - could
+{'category': 4, 'site': 24, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'paying', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "Fireman's Fund had claims adjusters on the streets of San Francisco right after sunrise yesterday and was paying as many claims as it could right on the spot."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 25 | Licensor - could
+{'category': 4, 'site': 24, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'paying', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "Fireman's Fund had claims adjusters on the streets of San Francisco right after sunrise yesterday and was paying as many claims as it could right on the spot."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 24, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': 'paying', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': "Fireman's Fund had claims adjusters on the streets of San Francisco right after sunrise yesterday and was paying as many claims as it could right on the spot.", 'resolved_object': 'many claims', 'resolved_verb_phrase': 'paying many claims'}]
+================================= 
+
+
+27)  The older generation has been torn between a fear of tampering with the status quo and a fear of what might happen if they didn't.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 25 | Licensor - did
+{'category': 2, 'site': 24, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'happen', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 21, 'vpe_sent': "The older generation has been torn between a fear of tampering with the status quo and a fear of what might happen if they didn't."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 25 | Licensor - did
+{'category': 2, 'site': 24, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'happen', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 21, 'vpe_sent': "The older generation has been torn between a fear of tampering with the status quo and a fear of what might happen if they didn't."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 24, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'happen', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 21, 'vpe_sent': "The older generation has been torn between a fear of tampering with the status quo and a fear of what might happen if they didn't.", 'resolved_object': '', 'resolved_verb_phrase': 'happen'}]
+================================= 
+
+
+28)  "I was not pleased with the slow start, and neither was NBC News," said Guy Hempel, general manager of NBC affiliate WAVE in Louisville, Ky.
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+29)  But a secondary agenda among officials in the City of Angels was to learn about the disaster-contingency plans that work and those that don't.
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+30)  Either one likes it or one doesn't.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 7 | Licensor - does
+{'category': 2, 'site': 6, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 6, 'sen_type': 2, 'vpe_sent': "Either one likes it or one doesn't."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 7 | Licensor - does
+{'category': 2, 'site': 6, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'likes', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 2, 'vpe_sent': "Either one likes it or one doesn't."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 6, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'likes', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 2, 'vpe_sent': "Either one likes it or one doesn't.", 'resolved_object': 'it', 'resolved_verb_phrase': 'likes it'}]
+================================= 
+
+
+31)  The typical Glass audience, which is more likely to be composed of music students than their teachers, certainly does.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 21 | Licensor - does
+{'category': 2, 'site': 20, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'composed', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'The typical Glass audience, which is more likely to be composed of music students than their teachers, certainly does.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 21 | Licensor - does
+{'category': 2, 'site': 20, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'composed', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'The typical Glass audience, which is more likely to be composed of music students than their teachers, certainly does.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 20, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'composed', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'The typical Glass audience, which is more likely to be composed of music students than their teachers, certainly does.', 'resolved_object': 'of music students than their teachers', 'resolved_verb_phrase': 'composed of music students than their teachers'}]
+================================= 
+
+
+32)  People didn't believe we were in tune with the marketplace, and in many ways we weren't."
+
+Scoring in STANFORD
+
+Scoring in SPACY
+
+Ellipsis Type - 'Be' | Ellipsis at sentence number 1 and token number - 6 | Licensor - were
+{'category': 1, 'site': 5, 'licensor': 'were', 'lemmatized_licensor': 'be', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 17, 'sen_type': 2, 'vpe_sent': 'People didn\'t believe we were in tune with the marketplace, and in many ways we weren\'t."'}
+
+
+FINAL VPE
+
+[]
+================================= 
+
+
+33)  But this year, when the hullabaloo surrounding its centennial died, so too did some advertiser interest.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 15 | Licensor - did
+{'category': 2, 'site': 14, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'died', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'But this year, when the hullabaloo surrounding its centennial died, so too did some advertiser interest.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 15 | Licensor - did
+{'category': 2, 'site': 14, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'died', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'But this year, when the hullabaloo surrounding its centennial died, so too did some advertiser interest.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 14, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'died', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'But this year, when the hullabaloo surrounding its centennial died, so too did some advertiser interest.', 'resolved_object': '', 'resolved_verb_phrase': 'died'}]
+================================= 
+
+
+34)  Another sticking point for advertisers was National Geographic's tradition of lumping its ads together, usually at the beginning or end of the magazine, rather than spreading ads out among its articles, as most magazines do.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 39 | Licensor - do
+{'category': 2, 'site': 38, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'spreading', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 28, 'vpe_sent': "Another sticking point for advertisers was National Geographic's tradition of lumping its ads together, usually at the beginning or end of the magazine, rather than spreading ads out among its articles, as most magazines do."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 39 | Licensor - do
+{'category': 2, 'site': 38, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'spreading', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 28, 'vpe_sent': "Another sticking point for advertisers was National Geographic's tradition of lumping its ads together, usually at the beginning or end of the magazine, rather than spreading ads out among its articles, as most magazines do."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 38, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'spreading', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 28, 'vpe_sent': "Another sticking point for advertisers was National Geographic's tradition of lumping its ads together, usually at the beginning or end of the magazine, rather than spreading ads out among its articles, as most magazines do.", 'resolved_object': 'ads out among its articles', 'resolved_verb_phrase': 'spreading ads out among its articles'}]
+================================= 
+
+
+35)  By 1982, however, the patent status of the Lanier microcassette had changed, permitting Dictaphone to develop its own competitive micro system, which it did.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'develop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': 'By 1982, however, the patent status of the Lanier microcassette had changed, permitting Dictaphone to develop its own competitive micro system, which it did.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 28 | Licensor - did
+{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'develop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': 'By 1982, however, the patent status of the Lanier microcassette had changed, permitting Dictaphone to develop its own competitive micro system, which it did.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 27, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'develop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 18, 'vpe_sent': 'By 1982, however, the patent status of the Lanier microcassette had changed, permitting Dictaphone to develop its own competitive micro system, which it did.', 'resolved_object': 'its own competitive micro system', 'resolved_verb_phrase': 'develop its own competitive micro system'}]
+================================= 
+
+
+36)  The Command's huge bureaucracy is needed to analyze whether leaders of coups against Gen. Noriega meet the War Powers Act's six points, Cap Weinberger's seven points, the Intelligence Committee's 32 points and Woodrow Wilson's 14 points necessary to justify U.S. support. So far no one has.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 2 and token number - 5 | Licensor - has
+{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'justify', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 45, 'vpe_sent': 'So far no one has.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 2 and token number - 5 | Licensor - has
+{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'justify', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 45, 'vpe_sent': 'So far no one has.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 4, 'licensor': 'has', 'lemmatized_licensor': 'have', 'sen_index': 1, 'resolved_head_verb': 'justify', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 45, 'vpe_sent': 'So far no one has.', 'resolved_object': 'U.S. support', 'resolved_verb_phrase': 'justify U.S. support'}]
+================================= 
+
+
+37)  Then the whole thing will start to collapse, just as it did in the 1970s, and the ghosts and banshees will be howling through the place turning people's hair white.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 13 | Licensor - did
+{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'start', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "Then the whole thing will start to collapse, just as it did in the 1970s, and the ghosts and banshees will be howling through the place turning people's hair white."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 13 | Licensor - did
+{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'start', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "Then the whole thing will start to collapse, just as it did in the 1970s, and the ghosts and banshees will be howling through the place turning people's hair white."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 12, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'start', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "Then the whole thing will start to collapse, just as it did in the 1970s, and the ghosts and banshees will be howling through the place turning people's hair white.", 'resolved_object': '', 'resolved_verb_phrase': 'start'}]
+================================= 
+
+
+38)  The big questions are whether the increase, effective Jan. 1, 1990, will stick, and whether other major steelmakers will follow suit. It is widely expected that they will.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 7 | Licensor - will
+{'category': 4, 'site': 6, 'licensor': 'will', 'lemmatized_licensor': 'will', 'sen_index': 1, 'resolved_head_verb': 'follow', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 23, 'vpe_sent': 'It is widely expected that they will.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 7 | Licensor - will
+{'category': 4, 'site': 6, 'licensor': 'will', 'lemmatized_licensor': 'will', 'sen_index': 1, 'resolved_head_verb': 'follow', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 23, 'vpe_sent': 'It is widely expected that they will.'}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 6, 'licensor': 'will', 'lemmatized_licensor': 'will', 'sen_index': 1, 'resolved_head_verb': 'follow', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 23, 'vpe_sent': 'It is widely expected that they will.', 'resolved_object': 'suit', 'resolved_verb_phrase': 'follow suit'}]
+================================= 
+
+
+39)  And any strong surge in redemptions could force some funds to dump stocks to raise cash, as some did during Black Monday.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 20 | Licensor - did
+{'category': 2, 'site': 19, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'dump', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 11, 'vpe_sent': 'And any strong surge in redemptions could force some funds to dump stocks to raise cash, as some did during Black Monday.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 20 | Licensor - did
+{'category': 2, 'site': 19, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'force', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 7, 'vpe_sent': 'And any strong surge in redemptions could force some funds to dump stocks to raise cash, as some did during Black Monday.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 19, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'force', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 7, 'vpe_sent': 'And any strong surge in redemptions could force some funds to dump stocks to raise cash, as some did during Black Monday.', 'resolved_object': 'some funds', 'resolved_verb_phrase': 'force some funds'}]
+================================= 
+
+
+40)  In the wake of Friday's plunge and yesterday's rebound, some companies are already postponing deals, and others wish they could.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 24 | Licensor - could
+{'category': 4, 'site': 23, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 23, 'sen_type': 2, 'vpe_sent': "In the wake of Friday's plunge and yesterday's rebound, some companies are already postponing deals, and others wish they could."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 24 | Licensor - could
+{'category': 4, 'site': 23, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 23, 'sen_type': 2, 'vpe_sent': "In the wake of Friday's plunge and yesterday's rebound, some companies are already postponing deals, and others wish they could."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 23, 'licensor': 'could', 'lemmatized_licensor': 'could', 'sen_index': 0, 'resolved_head_verb': None, 'ellided_obj_child_parent_verb': 23, 'sen_type': 2, 'vpe_sent': "In the wake of Friday's plunge and yesterday's rebound, some companies are already postponing deals, and others wish they could.", 'resolved_object': '', 'resolved_verb_phrase': 'could'}]
+================================= 
+
+
+41)  The government includes money spent on residential renovation; Dodge doesn't.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 11 | Licensor - does
+{'category': 2, 'site': 10, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'includes', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 2, 'vpe_sent': "The government includes money spent on residential renovation; Dodge doesn't."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 11 | Licensor - does
+{'category': 2, 'site': 10, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'includes', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 2, 'vpe_sent': "The government includes money spent on residential renovation; Dodge doesn't."}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 10, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'includes', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 2, 'vpe_sent': "The government includes money spent on residential renovation; Dodge doesn't.", 'resolved_object': 'money', 'resolved_verb_phrase': 'includes money'}]
+================================= 
+
+
+42)  The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 21 | Licensor - have
+{'category': 3, 'site': 20, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'stop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': 'The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Have' | Ellipsis at sentence number 1 and token number - 21 | Licensor - have
+{'category': 3, 'site': 20, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'stop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': 'The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have.'}
+
+
+FINAL VPE
+
+[{'category': 3, 'site': 20, 'licensor': 'have', 'lemmatized_licensor': 'have', 'sen_index': 0, 'resolved_head_verb': 'stop', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': 'The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have.', 'resolved_object': '', 'resolved_verb_phrase': 'stop'}]
+================================= 
+
+
+43)  His wife also works for the paper, as did his father.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 10 | Licensor - did
+{'category': 2, 'site': 9, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'works', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'His wife also works for the paper, as did his father.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 10 | Licensor - did
+{'category': 2, 'site': 9, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'works', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'His wife also works for the paper, as did his father.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 9, 'licensor': 'did', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'works', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 3, 'vpe_sent': 'His wife also works for the paper, as did his father.', 'resolved_object': 'for the paper', 'resolved_verb_phrase': 'works for the paper'}]
+================================= 
+
+
+44)  See, the other rule of thumb about ballooning is that you can't steer, and neither can your pilot.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 19 | Licensor - can
+{'category': 4, 'site': 18, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'steer', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 14, 'vpe_sent': "See, the other rule of thumb about ballooning is that you can't steer, and neither can your pilot."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 19 | Licensor - can
+{'category': 4, 'site': 18, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'steer', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 14, 'vpe_sent': "See, the other rule of thumb about ballooning is that you can't steer, and neither can your pilot."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 18, 'licensor': 'can', 'lemmatized_licensor': 'can', 'sen_index': 0, 'resolved_head_verb': 'steer', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 14, 'vpe_sent': "See, the other rule of thumb about ballooning is that you can't steer, and neither can your pilot.", 'resolved_object': '', 'resolved_verb_phrase': 'steer'}]
+================================= 
+
+
+45)  Can Sihanouk and Hun Sen knock off the Khmer Rouge still supported by China? He can't.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 2 | Licensor - ca
+{'category': 4, 'site': 1, 'licensor': 'ca', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'knock', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "He can't."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 2 and token number - 2 | Licensor - ca
+{'category': 4, 'site': 1, 'licensor': 'ca', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'knock', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "He can't."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 1, 'licensor': 'ca', 'lemmatized_licensor': 'can', 'sen_index': 1, 'resolved_head_verb': 'knock', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 5, 'vpe_sent': "He can't.", 'resolved_object': 'off the Khmer Rouge', 'resolved_verb_phrase': 'knock off the Khmer Rouge'}]
+================================= 
+
+
+46)  But even if he agrees, Mr. Kemp doesn't write the nation's housing law. Congress does.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 2 and token number - 2 | Licensor - does
+{'category': 2, 'site': 1, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 1, 'resolved_head_verb': 'write', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'Congress does.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 2 and token number - 2 | Licensor - does
+{'category': 2, 'site': 1, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 1, 'resolved_head_verb': 'write', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'Congress does.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 1, 'licensor': 'does', 'lemmatized_licensor': 'do', 'sen_index': 1, 'resolved_head_verb': 'write', 'ellided_obj_child_parent_verb': None, 'sen_type': 2, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 10, 'vpe_sent': 'Congress does.', 'resolved_object': 'the nation housing law', 'resolved_verb_phrase': 'write the nation housing law'}]
+================================= 
+
+
+47)  But even that group knows some people don't use their machines as much as they should.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 17 | Licensor - should
+{'category': 4, 'site': 16, 'licensor': 'should', 'lemmatized_licensor': 'should', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 9, 'vpe_sent': "But even that group knows some people don't use their machines as much as they should."}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Modal' | Ellipsis at sentence number 1 and token number - 17 | Licensor - should
+{'category': 4, 'site': 16, 'licensor': 'should', 'lemmatized_licensor': 'should', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 9, 'vpe_sent': "But even that group knows some people don't use their machines as much as they should."}
+
+
+FINAL VPE
+
+[{'category': 4, 'site': 16, 'licensor': 'should', 'lemmatized_licensor': 'should', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 9, 'vpe_sent': "But even that group knows some people don't use their machines as much as they should.", 'resolved_object': 'their machines', 'resolved_verb_phrase': 'use their machines'}]
+================================= 
+
+
+48)  Moreover, Japanese offices tend to use computers less efficiently than American offices do.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 14 | Licensor - do
+{'category': 2, 'site': 13, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 6, 'vpe_sent': 'Moreover, Japanese offices tend to use computers less efficiently than American offices do.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 14 | Licensor - do
+{'category': 2, 'site': 13, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 6, 'vpe_sent': 'Moreover, Japanese offices tend to use computers less efficiently than American offices do.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 13, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 6, 'vpe_sent': 'Moreover, Japanese offices tend to use computers less efficiently than American offices do.', 'resolved_object': 'computers', 'resolved_verb_phrase': 'use computers'}]
+================================= 
+
+
+49)  They say insurance companies use policies aimed at excluding bad risks because their competitors do.
+
+Scoring in STANFORD
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 15 | Licensor - do
+{'category': 2, 'site': 14, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'excluding', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 8, 'vpe_sent': 'They say insurance companies use policies aimed at excluding bad risks because their competitors do.'}
+
+Scoring in SPACY
+
+Ellipsis Type - 'Do' | Ellipsis at sentence number 1 and token number - 15 | Licensor - do
+{'category': 2, 'site': 14, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'They say insurance companies use policies aimed at excluding bad risks because their competitors do.'}
+
+
+FINAL VPE
+
+[{'category': 2, 'site': 14, 'licensor': 'do', 'lemmatized_licensor': 'do', 'sen_index': 0, 'resolved_head_verb': 'use', 'ellided_obj_child_parent_verb': None, 'sen_type': 1, 'resolved_head_verb_sen_index': 0, 'resolved_head_verb_site': 4, 'vpe_sent': 'They say insurance companies use policies aimed at excluding bad risks because their competitors do.', 'resolved_object': 'policies', 'resolved_verb_phrase': 'use policies'}]
+================================= 
+
+
