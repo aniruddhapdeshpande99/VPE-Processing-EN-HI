@@ -1,5 +1,5 @@
-# VPE-Processing-EN-HI
-This repository contains the code to the rule-based system from the paper **"Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation"** accepted at the **International Conference on Human-Informed Translation and Interpreting Technology (HiT-IT 2023)**. 
+# Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation
+This repository contains the code to the rule-based system and the annotated VPE data from the paper **"Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation"** accepted at the **International Conference on Human-Informed Translation and Interpreting Technology (HiT-IT 2023)**. 
 
 ## Data
 The annotated data for Verb Phrase Ellipsis in conversational English can be found in the ```Data``` directory. It is divided into two Excel files titled ```train.xlsx``` and ```test.xlsx```. 
@@ -23,7 +23,7 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
 
 * Install StanfordCoreNLP using the steps from the following [link]([https://stanfordnlp.github.io/CoreNLP/download.html](https://stanfordnlp.github.io/CoreNLP/download.html#steps-to-setup-from-the-official-release)).
 
-## Running the Code
+## Running the Rule-Based System
 * Go to the folder where you installed StanfordCoreNLP and run the following command:
   * ```java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,parse,sentiment" -port 9002 -timeout 30000```
 * In a new terminal tab, run Jupyter Notebook using ```jupyter notebook --port 8888```. You can use a port of your choice.
@@ -37,9 +37,9 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
   * The rule-based system is designed for two-person English conversations. In your conversation string, you must ensure that you use ```__eou__``` to indicate a switch of the speaker between sentences. Make sure you add a space before and after ```__eou__```. You can refer to the already existing conversations in the file to ensure whether your new conversation is correctly formatted or not.
   * Run ```vpe_main_test_new_convo.ipynb``` on your Jupyter Notebook in the browser.
 
-## Authors
+## Authors (LTRC IIIT-Hyderabad)
 * **Aniruddha Prashant Deshpande** [(Github)](https://github.com/aniruddhapdeshpande99)
-* **Dr. Dipti Misra Sharma**
+* **Dr. Dipti Misra Sharma** [(Personal Faculty Page)](https://www.iiit.ac.in/people/faculty/dipti/)
 
 ## License
 This project is licensed under the MIT License - [LICENSE.md](LICENSE.md)
