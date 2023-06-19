@@ -1,1 +1,0 @@
-The AllenNLP SRL Model goes in this directory.

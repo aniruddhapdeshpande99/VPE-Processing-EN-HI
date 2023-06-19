@@ -17,9 +17,10 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
   * ```python -m spacy download en_core_web_sm```
 * Setup for AllenNLP:
   * Install AllenNLP using ```pip install allennlp==2.1.0 allennlp-models==2.1.0```
-  * Download AllenNLP SRL Model from this [link](https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz).
-  * Move the downloaded model to the [Models](helper_functions/Models) directory of this repository using the following:
-  * ```mv structured-prediction-srl-bert.2020.12.15.tar.gz your_local_directory_path/VPE-Processing-EN-HI/Models```
+  * You will need to download AllenNLP SRL Model as well; however, this will be done automatically the first time you run any of the following notebooks:
+  * [vpe_main.ipynb](vpe_main.ipynb)
+  * [vpe_main_test.ipynb](vpe_main_test.ipynb)
+  * [vpe_main_test_new_convo.ipynb](vpe_main_test_new_convo.ipynb)
 
 * Install StanfordCoreNLP using the steps from the following [link]([https://stanfordnlp.github.io/CoreNLP/download.html](https://stanfordnlp.github.io/CoreNLP/download.html#steps-to-setup-from-the-official-release)).
 
