@@ -13,7 +13,7 @@ nlp_spacy = spacy.load("en_core_web_sm")
 # Loading Stanford NLP Parser
 nlp = StanfordCoreNLP('http://0.0.0.0:9002')
 #Loading AllenNLP SRL Model
-srl_predictor = Predictor.from_path("../Models/structured-prediction-srl-bert.2020.12.15.tar.gz") 
+srl_predictor = Predictor.from_path("./Models/structured-prediction-srl-bert.2020.12.15.tar.gz") 
 
 
 # Function to clean the text 
