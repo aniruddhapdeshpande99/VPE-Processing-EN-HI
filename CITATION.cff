@@ -1,5 +1,3 @@
-references:
-- type: conference-paper
 title: "Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation"
 authors:
   - family-names: Deshpande
@@ -8,7 +6,6 @@ authors:
   - family-names: Sharma
     given-names: Dipti Misra
 cff-version: 1.2.0
-date-released: "2023-07-09"
 year: 2023
 collection-title: "Proceedings of the International Conference HiT-IT 2023"
 collection-doi: 10.26615/issn.2683-0078.2023
@@ -32,6 +29,7 @@ url: "https://hit-it-conference.org/wp-content/uploads/2023/07/HiT-IT-2023-proce
 
 preferred-citation:
   type: conference-paper
+  title: "Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation"
   authors:
   - family-names: Deshpande
     given-names: Aniruddha Prashant
@@ -45,5 +43,6 @@ preferred-citation:
   country: IT
   date-start: 2023-07-07
   date-end: 2023-07-09
+  year: 2023
   start: 325
   end: 341
