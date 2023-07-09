@@ -42,8 +42,9 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
 * **Aniruddha Prashant Deshpande** [(Github)](https://github.com/aniruddhapdeshpande99)
 * **Dr. Dipti Misra Sharma** [(Personal Faculty Page)](https://www.iiit.ac.in/people/faculty/dipti/)
 
-## Youtube Presentation of our paper at the HiT-IT 2023 Conference
-You can watch the Video Presentation of our paper [here](https://www.youtube.com/watch?v=xqBwB6rZ6SM)
+## Link to the Proceedings and the Youtube Video Presentation of our paper at the HiT-IT 2023 Conference
+* The link to the proceedings can be accessed through this [link](https://hit-it-conference.org/wp-content/uploads/2023/07/HiT-IT-2023-proceedings.pdf).
+* You can watch the Video Presentation of our paper [here](https://www.youtube.com/watch?v=xqBwB6rZ6SM)
 
 ## Citation
 Please use the following BibTeX to cite our work, or use the link provided by Github that uses our [CITATION.cff](CITATION.cff) file to cite our paper, data and code.
