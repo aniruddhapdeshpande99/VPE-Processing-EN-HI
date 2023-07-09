@@ -42,6 +42,23 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
 * **Aniruddha Prashant Deshpande** [(Github)](https://github.com/aniruddhapdeshpande99)
 * **Dr. Dipti Misra Sharma** [(Personal Faculty Page)](https://www.iiit.ac.in/people/faculty/dipti/)
 
+## Youtube Presentation of our paper at the HiT-IT 2023 Conference
+You can watch the Video Presentation of our paper [here](https://www.youtube.com/watch?v=xqBwB6rZ6SM)
+
+## Citation
+Please use the following BibTeX to cite our work, or use the link provided by Github that uses our [CITATION.cff](CITATION.cff) file to cite our paper, data and code.
+
+```
+@inproceedings{Deshpande_Processing_English_Verb_2023,
+author = {Deshpande, Aniruddha Prashant and Sharma, Dipti Misra},
+doi = {10.26615/issn.2683-0078.2023_028},
+pages = {325--341},
+series = {[{"name"=>"The International Conference on Human-informed Translation and Interpreting Technology (HiT-IT 2023)"}]},
+title = {{Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation}},
+year = {2023}
+}
+```
+
 ## License
 This project is licensed under the MIT License - [LICENSE](LICENSE)
 
