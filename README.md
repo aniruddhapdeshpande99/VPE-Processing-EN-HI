@@ -50,13 +50,18 @@ The annotated data for Verb Phrase Ellipsis in conversational English can be fou
 Please use the following BibTeX to cite our work, or use the link provided by Github that uses our [CITATION.cff](CITATION.cff) file to cite our paper, data and code.
 
 ```
+Aniruddha Prashant Deshpande and Dipti Misra Sharma (2023) Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation. In Constantin Orăsan, Ruslan Mitkov, Gloria Corpas Pastor and Johanna Monti (eds.) Proceedings of the International Conference on Human-Informed Translation and Interpreting Technology (HiT-IT 2023). Naples, Italy, 7-9 July 2023, pp. 325 – 341
+
 @inproceedings{Deshpande_Processing_English_Verb_2023,
 author = {Deshpande, Aniruddha Prashant and Sharma, Dipti Misra},
+title = {Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation},
+booktitle = {Proceedings of the International Conference on Human-Informed Translation and Interpreting Technology (HiT-IT 2023)},
 doi = {10.26615/issn.2683-0078.2023_028},
 pages = {325--341},
-series = {[{"name"=>"The International Conference on Human-informed Translation and Interpreting Technology (HiT-IT 2023)"}]},
-title = {{Processing English Verb Phrase Ellipsis for Conversational English-Hindi Machine Translation}},
-year = {2023}
+editor = {Constantin Orăsan, Ruslan Mitkov, Gloria Corpas Pastor and Johanna Monti}
+year = {2023},
+month = {July},
+address = {Naples, Italy}
 }
 ```
 
